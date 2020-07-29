@@ -1,6 +1,6 @@
 {
-  "name": "antd",
-  "version": "3.26.18",
+  "name": "noi-antd",
+  "version": "1.0.0",
   "description": "An enterprise-class UI design language and React components implementation",
   "keywords": [
     "ant",
@@ -117,7 +117,7 @@
     "rc-form": "^2.4.10",
     "rc-input-number": "~4.5.0",
     "rc-mentions": "~0.4.0",
-    "rc-menu": "~7.5.1",
+    "rc-menu": "~1.0.2",
     "rc-notification": "~3.3.1",
     "rc-pagination": "~1.20.11",
     "rc-progress": "~2.5.0",

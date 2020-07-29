@@ -22,6 +22,14 @@ An enterprise-class UI design language and React UI library.
 
 English | [简体中文](./README-zh_CN.md)
 
+## Forked
+
+This is a Fork of the [antd](https://www.npmjs.com/package/antd) library, modified to use noi-menu which uses a <span> tag as opposed to an <i> tag to render the submenu arrow icon. <i> tags cause issues with the  WCAG 2.0 (Level AA)) accessibility guidelines as <i> is technically an obsolete tag designed to render italics, and should not be used as an icon placeholder.
+
+This is forked from version 3.26.18 of the library.
+
+
+
 ## ✨ Features
 
 - 🌈 Enterprise-class UI designed for web applications.
