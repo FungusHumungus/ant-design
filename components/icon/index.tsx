@@ -203,7 +203,7 @@ const Icon: IconComponent<IconProps> = props => {
   return (
     <LocaleReceiver componentName="Icon">
       {(locale: TransferLocale) => (
-        <i
+        <span
           aria-label={type && `${locale.icon}: ${type}`}
           {...restProps}
           tabIndex={iconTabIndex}
@@ -211,7 +211,7 @@ const Icon: IconComponent<IconProps> = props => {
           className={classString}
         >
           {renderInnerNode()}
-        </i>
+        </span>
       )}
     </LocaleReceiver>
   );

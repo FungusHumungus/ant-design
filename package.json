@@ -1,6 +1,6 @@
 {
   "name": "noi-antd",
-  "version": "1.0.0",
+  "version": "1.0.4",
   "description": "An enterprise-class UI design language and React components implementation",
   "keywords": [
     "ant",
@@ -38,7 +38,6 @@
   ],
   "main": "lib/index.js",
   "module": "es/index.js",
-  "unpkg": "dist/antd.min.js",
   "typings": "lib/index.d.ts",
   "scripts": {
     "api-collection": "antd-tools run api-collection",
@@ -64,7 +63,6 @@
     "prettier": "prettier -c --write '**/*'",
     "pretty-quick": "pretty-quick",
     "pub": "antd-tools run pub",
-    "prepublish": "antd-tools run guard",
     "site": "cross-env NODE_ICU_DATA=node_modules/full-icu bisheng build --ssr -c ./site/bisheng.config.js && node ./scripts/generateColorLess.js",
     "sort": "npx sort-package-json",
     "sort-api": "antd-tools run sort-api-table",
@@ -117,7 +115,7 @@
     "rc-form": "^2.4.10",
     "rc-input-number": "~4.5.0",
     "rc-mentions": "~0.4.0",
-    "rc-menu": "~1.0.2",
+    "noi-menu": "~1.0.2",
     "rc-notification": "~3.3.1",
     "rc-pagination": "~1.20.11",
     "rc-progress": "~2.5.0",
